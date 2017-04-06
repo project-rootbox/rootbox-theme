@@ -1,3 +1,10 @@
+=======================
+ Sphinx Rootbox Theme
+=======================
+
+A fork of sphinx-bootstrap-theme that uses bootstrap-material-design. Original
+README conents are below.
+
 ========================
  Sphinx Bootstrap Theme
 ========================
