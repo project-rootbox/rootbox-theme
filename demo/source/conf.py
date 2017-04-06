@@ -94,9 +94,6 @@ html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
     'navbar_title': "Demo",
 
-    # Tab name for entire site. (Default: "Site")
-    'navbar_site_name': "Site",
-
     # Tab name for the current pages TOC. (Default: "Page")
     'navbar_pagenav_name': "Page",
 
@@ -136,22 +133,6 @@ html_theme_options = {
     # Location of link to source.
     # Options are "nav" (default), "footer" or anything else to exclude.
     'source_link_position': "nav",
-
-    # Bootswatch (http://bootswatch.com/) theme.
-    #
-    # Options are nothing (default) or the name of a valid theme such
-    # as "amelia" or "cosmo".
-    #
-    # Example themes:
-    # * flatly
-    # * sandstone (v3 only)
-    # * united
-    # * yeti (v3 only)
-    'bootswatch_theme': "sandstone",
-
-    # Choose Bootstrap version.
-    # Values: "3" (default) or "2" (in quotes)
-    'bootstrap_version': "3",
 }
 
 # Add any paths that contain custom themes here, relative to this directory.

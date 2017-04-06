@@ -13,14 +13,19 @@
           {%- endblock %}
           {% if theme_navbar_title -%}{{ theme_navbar_title|e }}{%- else -%}{{ project|e }}{%- endif -%}
         </a>
-        <span class="navbar-text navbar-version pull-left"><b>{{ version|e }}</b></span>
+        <!-- <span class="navbar-text navbar-version pull-left"><b>{{ version|e }}</b></span> -->
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
           <ul class="nav navbar-nav">
             {% if theme_navbar_links %}
               {%- for link in theme_navbar_links %}
-                <li><a href="{{ pathto(*link[1:]) }}">{{ link[0] }}</a></li>
+                <li>
+                  <a href="{{ pathto(*link[1:]) }}">
+                    {{ link[0] }}
+                    <div class="ripple-container"></div>
+                  </a>
+                </li>
               {%- endfor %}
             {% endif %}
             {% block navbartoc %}
