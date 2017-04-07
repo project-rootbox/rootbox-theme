@@ -3,7 +3,9 @@
 =======================
 
 A fork of sphinx-bootstrap-theme that uses bootstrap-material-design. Original
-README conents are below.
+README contents are below.
+
+Original repo: https://github.com/ryan-roemer/sphinx-bootstrap-theme
 
 ========================
  Sphinx Bootstrap Theme
